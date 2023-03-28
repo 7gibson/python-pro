@@ -14,8 +14,12 @@ my_list.extend([5,6,7])
 games=['football','basketball','tennis','ball']
 
 games.insert(2,'handball')
-my_list.insert(2,3)
+my_list.insert(2,3) #to insert an item at a specific index
 print(my_list)
+print(games)
+
+games.pop(2) #to remove an item from a certain index
+
 print(games)
 
 print(games)
